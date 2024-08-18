@@ -1,0 +1,21 @@
+.main-container {
+    background-color: Red;
+    width: 100vw;
+}
+
+.title-text {
+    color: blue;
+    text-align: center;
+}
+
+.content-container {
+    background-color: yellow;
+}
+
+
+
+h2,
+h3,
+h4 {
+    margin: 0;
+}
