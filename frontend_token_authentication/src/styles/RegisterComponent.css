@@ -1,0 +1,60 @@
+.form-container {
+    background-color: pink;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.form-heading {
+    color: green;
+    text-align: center;
+}
+
+.form-content {
+    background-color: blue;
+    padding: 20px 0px;
+}
+
+.form-row {
+    background-color: purple;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-row input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #000000;
+}
+
+.form-button-div {
+    background-color: yellow;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.primary-button {
+    background-color: purple;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.error-text {
+    color: Red;
+}
+
+.success-text {
+    color: green;
+}
